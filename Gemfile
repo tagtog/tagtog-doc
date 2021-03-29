@@ -16,7 +16,7 @@ gem "jekyll", "~> 3.9.0"
 # https://github.com/fongandrew/hydeout
 gemspec
 
-gem "kramdown", "~> 2.3.0"
+gem "kramdown", "~> 2.3.1"
 gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
