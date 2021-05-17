@@ -30,6 +30,7 @@ sidebar_toc:
       - metrics
       - collaboration
       - pdfann
+      - ocr
 
   - name: API
     pages:
