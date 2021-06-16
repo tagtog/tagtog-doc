@@ -130,6 +130,17 @@ toc: true
   {% include message.html message='Note that <code>members_anncomplete</code> searches in members versions only. If you rather want to search for a confirmed document in any <em>version</em> (i.e. any member or master), you need to search for: <code>members_anncomplete:* OR anncomplete:true</code>' %}
 </div>
 
+<div class="two-third-col">
+  <h3>Search which documents are assigned to the user</h3>
+  <p>You can retrieve the documents assigned to a given member with the query: <code>member_assignments:username</code></p>
+  <p>You can also retrieve all the documents assigned to <em>at least one</em> member with the query: <code>member_assignments:*</code></p>
+  <p>Create a query for a set of users following this example: <code>member_assignments:user1 AND member_assignments:user2 AND member_assignments:user3</code></p>
+</div>
+
+<div class="one-third-col">
+  {% include message.html message='Note that <code>member_assignments</code> works only with <a href="projects.html#task-distribution" title="Documentation of Task Distribution">Task Distribution</a> enabled.' %}
+</div>
+
 
 <div class="two-third-col">
   <h3>Wildcard search</h3>
